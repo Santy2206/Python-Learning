@@ -1,2 +1,3 @@
 import sys 
-print(f'Hello, my name is {sys.argv[1]}')
+for arg in sys.argv[1:]:
+  print(f'Hello, my name is {arg}')
